@@ -1,0 +1,689 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  background-color: #1f2020;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* p{
+  font-weight: lighter;
+} */
+
+
+/* Style the header with a grey background and some padding */
+#header {
+  overflow: hidden;
+  background-color: #2d2d2d;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+#header a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin: auto 8px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+#header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: auto;
+}
+
+#header a.logo:hover{
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+/* Change the background color on mouse-over */
+#header a:hover {
+  background-color: #fff;
+  color: #1f2020;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Style the active/current link*/
+#header a.active {
+  background-color: #1f2020;
+  color: #ffffff;
+  /* font-weight: bold; */
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+
+
+
+
+section{
+  margin: auto;
+  padding: 50px 100px;
+}
+
+#hero{
+  margin: 0;
+  height: 70vh;
+  align-content: center;
+  scroll-behavior: smooth;
+}
+
+.hero-left{
+  float: left;
+  width: 50%;
+  display: block;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.hero-right{
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+
+.hero-pic{
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+#about{
+  background-color: #fff;
+  color: #1a1a1a;
+  /* font-weight: 700; */
+}
+
+#education{
+  padding: 50px 100px;
+}
+
+#projects{
+  padding: 50px 100px;
+  scroll-behavior: smooth;
+}
+
+#recent{
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+#recent .yinka{
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+#recent .yinka:hover{
+  background-color: #1a1a1a;
+}
+
+#contact{
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  /* background: linear-gradient(45deg, #993131, #FF5252);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent; */
+}
+.adeyimika{
+  margin: 0;
+}
+h2{
+  font-size: 3rem;
+  /* color: goldenrod; */
+}
+
+/* .head::after {
+  content: "";
+  display: block;
+  width: 10%;        
+  height: 2px;
+  background-color: white;
+  margin-top: 5px;
+} */
+
+h3{
+  color: #dd0000;
+  font-size: 1.5rem;
+}
+h4{
+  font-size: 1.4rem;
+  margin: 8px auto;
+  /* color: #bac964; */
+}
+h5{
+  margin: 0;
+  margin-bottom: 16px;
+  color: white;
+}
+h6{
+  font-size: 1.4rem;
+  font-weight: lighter;
+  color: #FF5252;
+  margin: 0;
+}
+.text{
+  text-align: left;
+  font-size: 1.5rem;
+}
+.intro-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 50px;
+
+}
+
+.center{
+  width: 60%;
+  margin-inline: auto;
+}
+
+.yinka{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 16px;
+  margin-right: 16px;
+  padding: 16px 75px;
+  border: none;
+  background-color: #fff;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+.yinka:hover{
+  background-color: #bbb;
+  color: #2d2d2d  ;
+  transition: all 0.5s ease-in-out;
+}
+dot{
+  color: #FF5252;
+}
+.img-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 50px
+}
+
+img{
+  object-fit: cover;
+}
+
+.contact-link{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.area{
+  padding: 1.5em;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.head{
+  text-align: left ;
+}
+
+#contact a{
+  color: #fff;
+  /* font-weight: 700; */
+  margin-left: 55px;
+  text-decoration: none;
+}
+.svg{
+  background-color: #aaa;
+  border-radius: 50%;
+  border: 8px solid #aaa;
+  margin-right: 8px;
+}
+.details{
+  margin: 8px 8px;
+  display: flex;
+  align-items: center;
+}
+#contact a:hover{
+  text-decoration: underline;
+}
+
+hr{
+  width: 80%;
+  background-color: red;
+}
+
+
+.education-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 50px;
+}
+
+.education{
+  width: 100%;
+}
+.experience{
+  width: 100%;
+}
+.exp{
+  background-color: #2d2d2d;  
+  padding: 30px;
+  border-radius: 10px;
+  color: #b0b0b0;
+}
+.logo-pic{
+  margin: 0 16px 0 0;
+  width: 50px;
+  border-radius: 50%;
+}
+.logo{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.work{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
+
+.work-card{
+  width: 100%;
+  background-color: #1f2020;
+  padding: 20px;
+  border-radius: 31px;
+}
+
+.work-card:hover{
+  background-color: #2d2d2d;
+  transition: ease-in-out 200ms;
+}
+
+.work-img{
+  border-radius: 15px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.rnt{
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.rnt-pic{
+  height: 250px;
+  /* background-color: red; */
+}
+
+.rnt-text{
+  margin: auto 30px;
+}
+
+footer{
+  /* background-color: #fff;
+  color: #1a1a1a; */
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+  border-top: 1.5px solid #ffffff;
+}
+
+footer a{
+  color: #fff;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline 2px;
+}
+
+
+
+
+@media (max-width: 1250px) {
+  h1{
+    font-size: 2rem;
+  }
+
+  .hero-pic{
+    width: 300px;
+    height: 300px;
+  }
+
+  .yinka{
+    padding: 16px 40px;
+  }
+}
+
+@media (max-width: 970px) {
+  .rnt{
+    margin: 30px 100px;
+    display: block;
+  }
+
+  .rnt-text{
+    margin: 0;
+  }
+
+  .reverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 900px) {
+  #hero{
+    background-image: url(/Bosun/bosun_portfolio/assets/bosun-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero-right{
+    display: none;
+  }
+
+  .hero-left{
+    width: 70%;
+  }
+
+  .yinka{
+    width: 80%;
+    text-align: center;
+  }
+  
+  .intro-grid{
+    display: block;
+  }
+  
+  .rnt-pic{
+    max-height: 180px;
+  }
+  
+  .contact-link{
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .work{
+    display: block;
+  }
+
+  .work-card{
+    width: 90%;
+    margin-inline: auto;
+    margin: 30px auto;
+  }
+  
+  .rnt-pic{
+    max-height: 130px;
+  }
+}
+
+@media (max-width: 700px) {
+  body{
+    font-size: 12px;
+  }
+  
+  .logo{
+    font-size: 14px;
+  }
+  .logo-pic{
+    width: 32px;
+    height: 32px;
+  }
+  .education-grid, .img-grid, #contact{
+    display: block;
+  }
+  
+  h1{
+    font-size: 2rem ;
+  }
+  h2{
+    font-size: 2rem;
+    margin: 0;
+  }
+  h3{
+    font-size: 1.5rem;
+  }
+  h4{
+    font-size: 1.3rem;
+  }
+
+  section{
+    padding: 50px;
+  }
+
+  .rnt{
+    margin: 30px;
+  }
+
+  .rnt-pic{
+    max-height: 200px;
+  }
+
+  #about{
+    padding: 30px ;
+    margin: 0;
+  }
+
+  #education{
+    padding: 0 30px;
+  }
+
+  #contact{
+    padding: 30px;
+  }
+
+  .area{
+    margin: 16px auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .rnt-pic{
+    max-height: 150px;
+  }
+  
+  #projects{
+    padding:30px 50px;
+  }
+}
+
+@media (max-width: 512px) {
+  h1{
+    font-size: 1.5rem;
+  }
+  .head{
+    font-size: 2rem;
+  }
+  .sub-head-one{
+    font-size: 1.5rem;
+  }
+  .description{
+    font-size: 1.5rem;
+  }
+  .head::after {
+    width: 30%;
+  }
+
+  /* .card{
+    padding: 0;
+  } */
+}
+
+
+@media (max-width: 670px) {
+  #projects{
+    padding:30px 50px;
+  }
+}
+
+@media (max-width: 730px) {
+  #header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .footer-left{
+    order: 1;
+  }
+  .head::after {
+    width: 20%;
+  }
+}
+
+
+@media (max-width: 450px) {
+  section{
+    padding: 20px;
+  }
+
+  .rnt, .work{
+    margin: 30px 0;
+  }
+  
+  .rnt-pic{
+    max-height: 130px;
+  }
+
+  #projects{
+    padding: 16px;
+  }
+
+}
+
+
+@media (max-width: 400px) {
+  #header a{
+    font-size: 14px;
+  }
+  .yinka{
+    width: 100%;
+    padding: 12px 0;
+  }
+  
+  
+
+  #hero{
+    background-image: none;
+    background-color: white;
+    height: auto;
+  }
+
+  .hero-left{
+    display: none;
+  }
+
+  .hero-right{
+    display: block;
+    float: none;
+    width: auto;
+  }
+
+  .hero-pic{
+    width: 250px;
+    border-radius: 30px;
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 330px) {
+  #header a{
+    font-size: 12px;
+  }
+
+  #hero{
+    background-image: none;
+    background-color: white;
+  }
+
+  .hero-left{
+    display: none;
+  }
+
+  .hero-right{
+    display: block;
+    float: none;
+  }
+
+  .hero-pic{
+    width: 250px;
+    border-radius: 30px;
+  }
+
+  h1{
+    font-size: 1rem;
+  }
+  .head{
+    font-size: 1.5rem;
+  }
+  h3, .sub-head-one{
+    font-size: 1rem;
+  }
+  .intro-grid{
+    margin-top: 24px;
+  }
+  .intro-grid p{
+    margin-top: 0;
+  }
+  h3{
+    margin-bottom: 8px;
+  }
+  .description{
+    font-size: 1rem;
+  } 
+  .text{
+    font-size: 0.8rem;
+  }
+  #projects{
+    padding: 16px;
+  }
+
+  .rnt-pic{
+    max-height: 80px;
+  }
+}
