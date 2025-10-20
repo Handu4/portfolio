@@ -78,6 +78,7 @@ section{
 #hero{
   margin: 0;
   height: 70vh;
+  text-align: left;
   align-content: center;
   scroll-behavior: smooth;
 }
@@ -85,7 +86,8 @@ section{
 .hero-left{
   float: left;
   width: 50%;
-  display: block;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -103,6 +105,7 @@ section{
   height: 350px;
   border-radius: 50%;
 }
+
 
 #about{
   background-color: #fff;
@@ -222,9 +225,21 @@ h6{
   color: #2d2d2d  ;
   transition: all 0.5s ease-in-out;
 }
-dot{
-  color: #FF5252;
+
+.hero-btn{
+  border-radius: 0;
 }
+
+.hero-btn-two{
+  background-color: #1f2020;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.hero-btn-two:hover{
+  background-color: #ffffff;
+}
+
 .img-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -390,6 +405,10 @@ footer a:hover{
 }
 
 @media (max-width: 970px) {
+  .hero-btn{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .rnt{
     margin: 30px 100px;
     display: block;
