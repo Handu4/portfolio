@@ -406,7 +406,7 @@ footer a:hover{
 }
 
 @media (max-width: 900px) {
-  #hero{
+  /* #hero{
     background-image: url(/Bosun/bosun_portfolio/assets/bosun-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -418,6 +418,28 @@ footer a:hover{
 
   .hero-left{
     width: 70%;
+  } */
+
+  #hero{
+    background-image: none;
+    background-color: white;
+    height: auto;
+  }
+
+  .hero-left{
+    display: none;
+  }
+
+  .hero-right{
+    display: block;
+    float: none;
+    width: auto;
+  }
+
+  .hero-pic{
+    width: 250px;
+    border-radius: 30px;
+    justify-content: center;
   }
 
   .yinka{
@@ -431,6 +453,10 @@ footer a:hover{
   
   .rnt-pic{
     max-height: 180px;
+  }
+
+  .area{
+    margin: 16px auto;
   }
   
   .contact-link{
@@ -508,10 +534,6 @@ footer a:hover{
   #contact{
     padding: 30px;
   }
-
-  .area{
-    margin: 16px auto;
-  }
 }
 
 @media (max-width: 550px) {
@@ -539,6 +561,28 @@ footer a:hover{
   }
   .head::after {
     width: 30%;
+  }
+
+  #hero{
+    background-image: none;
+    background-color: white;
+    height: auto;
+  }
+
+  .hero-left{
+    display: none;
+  }
+
+  .hero-right{
+    display: block;
+    float: none;
+    width: auto;
+  }
+
+  .hero-pic{
+    width: 250px;
+    border-radius: 30px;
+    justify-content: center;
   }
 
   /* .card{
@@ -606,28 +650,6 @@ footer a:hover{
   }
   
   
-
-  #hero{
-    background-image: none;
-    background-color: white;
-    height: auto;
-  }
-
-  .hero-left{
-    display: none;
-  }
-
-  .hero-right{
-    display: block;
-    float: none;
-    width: auto;
-  }
-
-  .hero-pic{
-    width: 250px;
-    border-radius: 30px;
-    justify-content: center;
-  }
 }
 
 
