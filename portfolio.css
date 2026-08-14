@@ -53,14 +53,15 @@ nav {
 
 /* HERO */
 .hero {
-  min-height: 60vh;
+  /* min-height: 60vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 80%;
+  margin-bottom: 0;
   margin-inline: auto;
-  /* padding: 7rem 3rem 4rem; gap: 4rem; */
+  padding: 7rem 3rem 0;
   /* position: relative; */
 }
 
@@ -165,7 +166,7 @@ h1 em { font-style: italic; color: var(--gold); }
 }
 
 /* SECTIONS */
-section { padding: 5rem 3rem; margin: 0 100px;}
+section { padding: 3rem; margin: 0 100px;}
 .alt { background: var(--bg-raised); }
 .section-header { margin-bottom: 3rem; }
 .eyebrow {
